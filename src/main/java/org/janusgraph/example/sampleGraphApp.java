@@ -12,7 +12,7 @@ import java.nio.file.Paths;
 public class sampleGraphApp {
     public static void main(String[] args) throws IOException, ClassNotFoundException {
 
-        String backend = "berkleyje";
+        String backend = "foundationdb";
 
         JanusGraph graph = JanusGraphFactory.open("src/main/resources/janusgraph-"+backend+".properties");
 
